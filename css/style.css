@@ -1,0 +1,80 @@
+body {
+    background-image: url(../assets/background.png);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 20vw;
+    background-color: #ff574a;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 70px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 10%;
+    width :100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar img{
+   margin: 0;
+}
+
+.profile-pic {
+    
+    border-radius: 50%;
+    width: 150px;
+    padding: 6px;
+    border: 2px solid;
+}
+.social-media{
+    display: flex;
+}
+
+.social-media img {
+    margin:0 2%;
+    width: 20px;
+}
+
+.menu-icon,
+.settings-icon {
+    width: auto; /* Use auto width to maintain aspect ratio */
+    
+    height: 25px;}
+    .social-media img {
+        margin: 0 5px; /* Adjust spacing between icons */
+        width: 20px;
+    }
+    
+    .menu-icon,
+    .settings-icon {
+        height: 25px; /* Set a fixed height */
+    }
+    
+    /* Additional styling for navbar icons */
+    .menu-icon {
+        margin-right: auto; /* Push menu icon to the left */
+    }
+    
+    .settings-icon {
+        margin-left: auto; /* Push settings icon to the right */
+    }
